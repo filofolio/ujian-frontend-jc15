@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "filo1@email.com",
+      "password": "filofirman1!",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "user1@email.com",
+      "password": "bambang!1",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryID": 1,
+      "name": "Nike Air Brown",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/qexr04jfgy8jlngx1dek/air-force-1-lv8-3-big-kids-shoe-BlqZZ4.jpg",
+      "price": 1987000,
+      "stock": 7,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
+    },
+    {
+      "id": 2,
+      "categoryID": 1,
+      "name": "Nike Air Jordan 1 FlyEase",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/06bac2ee-553d-4c86-8d7f-b20441fe21ec/air-jordan-1-hi-flyease-shoe-Mqc70W.jpg",
+      "price": 2099000,
+      "stock": 9,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
+    },
+    {
+      "id": 3,
+      "categoryID": 2,
+      "name": "Nike SB Blazer Low GT",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/uqilculrgglgxuxdjabw/sb-blazer-low-gt-skate-shoe-yKeNdm.jpg",
+      "price": 950000,
+      "stock": 6,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
+    },
+    {
+      "id": 4,
+      "categoryID": 2,
+      "name": "Nike Air Jordan 1 Low",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/7b096ff5-d3df-41c5-a4b5-dae96e176eff/air-jordan-1-low-shoe-z3Tl2VeJ.jpg",
+      "price": 1350000,
+      "stock": 7,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
+    },
+    {
+      "id": 5,
+      "categoryID": 3,
+      "name": "Nike Air Force 1 Sage Low",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/te6y2d0eti6qsqyfvl6e/air-force-1-sage-low-shoe-cSgsrx.jpg",
+      "price": 3260000,
+      "stock": 7,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci phasellus egestas tellus. Eget sit amet tellus cras. "
+    }
+  ],
+  "cart": [
+    {
+      "name": "Nike Air Jordan 1 FlyEase",
+      "categoryID": 1,
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/06bac2ee-553d-4c86-8d7f-b20441fe21ec/air-jordan-1-hi-flyease-shoe-Mqc70W.jpg",
+      "qty": 1,
+      "userID": 1,
+      "price": 2099000,
+      "id": 1
+    }
+  ],
+  "transaction": [
+    {
+      "date": "17-11-2020",
+      "total": 1987000,
+      "items": [
+        {
+          "name": "Nike Air Brown",
+          "categoryID": 1,
+          "qty": 1,
+          "userID": 1,
+          "price": 1987000,
+          "id": 1
+        }
+      ],
+      "userID": 1,
+      "id": 1
+    }
+  ]
+}
